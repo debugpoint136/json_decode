@@ -1,0 +1,59 @@
+[2013-10-04 14:00:11,771] ERROR -  [ r= 5456147901240635-1380895241788-2-1acid= nullkey= optus-v1-001d= {"e":{"ec":"400100","st":1380895241787,"f":{"p":{"ti":"my-account","ty":"My Account","re":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109","cp":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109","c07":""},"u":{"c01":"buynow","pi":"","am":0},"v":{"na":"home:personal:customer-center:my-account","c02":false,"c03":"","c06":"","br":"i~10.0","dd":"Windows-7~T","tz":-600},"t":{"c04":"","c05":0,"na":"","qt":""},"a":{"qu":""}},"ed":{"PAGE_TITLE_VAR":"my-account","CHANNEL_PATH_VAR":"home:personal:customer-center:my-account","ORDER_FLOW_TYPE_VAR":"buynow","IS_LOGGED_IN_VAR":false,"PAGE_TYPE_VAR":"My Account","REFERRER_URL_VAR":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109","PAGE_URL_VAR":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109","ORDER_MTC_VAR":0},"vp":"5.2.4","vt":"1.1","vi":"f67cbba6-31bf-4870-be40-e15a3f6b0471","vg":"13","ti":"default_target","tp":"1","rt":"16.279","rv ] 
+
+# The line above is one entry in the log files :- That can be expanded to json structures like below :-
+
+{
+    "ec":"400100",
+	"st":1380895241787,
+	"f": 
+		{
+		"p":
+				{"ti":"my-account",
+				"ty":"My Account",
+				"re":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109",
+				"cp":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109",
+				"c07":""
+				},
+		"u":
+				{"c01":"buynow",
+				"pi":"",
+				"am":"0"
+				},
+		"v":
+				{"na":"home:personal:customer-center:my-account",
+				"c02":false,
+				"c03":"",
+				"c06":"",
+				"br":"i~10.0",
+				"dd":"Windows-7~T",
+				"tz":-600
+				},
+		"t":
+				{
+				"c04":"",
+				"c05":0,
+				"na":"",
+				"qt":""
+				},
+		"a":	{"qu":""
+				}
+		},
+	
+	"ed":
+		{"PAGE_TITLE_VAR":"my-account",
+			"CHANNEL_PATH_VAR":"home:personal:customer-center:my-account",
+			"ORDER_FLOW_TYPE_VAR":"buynow",
+			"IS_LOGGED_IN_VAR":false,
+			"PAGE_TYPE_VAR":"My Account",
+			"REFERRER_URL_VAR":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109",
+			"PAGE_URL_VAR":"https://www.optus.com.au/customercentre/myaccount?error=true&errorReason=109",
+			"ORDER_MTC_VAR":0
+		},
+	"vp":"5.2.4",
+	"vt":"1.1",
+	"vi":"f67cbba6-31bf-4870-be40-e15a3f6b0471",
+	"vg":"13",
+	"ti":"default_target",
+	"tp":"1",
+	"rt":"16.279"
+}
