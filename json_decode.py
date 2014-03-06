@@ -7,11 +7,6 @@ from pprint import pprint
 json_data = open('correct.json')
 data = load(json_data)
 
-
-pprint(data)
-
-exit()
-
 # data is a big hash(DICTionary) now
 
 e = {} #declaring a new hash
